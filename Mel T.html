@@ -1,0 +1,421 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Templates </title>
+
+ <link rel="icon" type="image/png" href="Circlecrop.png">
+    <style>
+
+body {
+            background-image: url('IMG_7391.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: right; /* This will position the image at the right of the body */ 
+        }
+
+        select, textarea {
+          width: 500px;
+            font-size: 20px;
+            
+           font-family: 'Calibri', sans-serif;
+
+}
+
+   select, textarea {
+            width: 500px;
+            font-size: 20px;
+            font-family: 'Calibri', sans-serif;
+            background-color: #00000080; /* Make textarea 50% transparent dark black */
+            color: white; /* Changed to white */
+            transition: background-color 0.5s, color 0.5s;
+        }
+
+textarea {
+    color: white;
+}
+
+h1 {
+    font-family: 'Calibri', sans-serif;
+    font-size: 30px;
+
+
+}
+
+h2 {
+    font-family: 'Calibri', sans-serif;
+    font-size: 30px;
+
+
+}
+
+
+
+#selectedOption {
+            height: 600px;
+            width: 500px;
+            background-color: #00000080; /* Make textarea 50% transparent dark black */
+            color: white;
+        }
+        #additionalInfo {
+            height: 600px;
+            width: 500px;
+            background-color: #00000080; /* Make textarea 50% transparent dark black */
+            color: white;
+        }
+
+img { 
+width: 7%; height: 7%; 
+
+img { 
+image-align: left;
+}
+
+
+    </style>
+    <script>
+        window.onload = function() {
+            var select = document.getElementById("dropdown");
+            var options = Array.prototype.slice.call(select.options);
+            options.sort(function(a,b){
+                if(a.text > b.text) return 1;
+                if(a.text < b.text) return -1;
+                return 0
+            });
+            select.innerHTML = "";
+            for(var i = 0; i < options.length; i++) {
+                select.appendChild(options[i]);
+            }
+        }
+        function updateTextArea() {
+            var dropdown = document.getElementById("dropdown");
+            var textarea = document.getElementById("textarea");
+            textarea.value = dropdown.value;
+        }
+    </script>
+
+</head>
+<body>
+<body>
+
+<center>
+<img src="IamRay13/Ray.png""height="1500" width="1000"
+</center>
+
+            <!--------------- hero section starts here --------------->
+            <div class="hero">
+                  <div class="header">
+                        <h1 class="line anim-typewriter">Mel, from Revenue Cycle Management (RCM)</h1>
+                  </div>
+            </div>
+
+          <div class="scroll-down"></div>
+            <!--------------- hero section ends here --------------->
+
+
+    <select id="dropdown" onchange="updateTextareas()">
+<option value="Please note anything here....">60MC Restart Note</option>
+
+
+
+     <option value="Good day,
+
+The patient is due for their 60-month Oxygen Recertification. Kindly complete the CMN, please ensure that the dates and signature should be in the same format. 
+
+Please have DOCTOR sign and fax it back to (484) 362-1480 at your earliest convenience.
+
+Feel free to call us at (484) 567-0666 if you have any questions. 
+Thank you for your prompt attention!
+
+----------------------------------------------------------
+From: Mel T.
+Phone: (484) 567-0666 
+Fax: (484) 362-1480
+
+Phone: 4845670666 
+Fax: 4843621480">SWO Template</option>
+
+
+     <option value="IMPORTANT!
+
+The answer keys are located on the back of the sheet. We kindly request that the doctor accurately and completely fill out the form for insurance billing purposes on behalf of the patient, please ensure that the dates and signature should be in the same format. 
+
+Please have DOCTOR sign and fax it back to (484) 362-1480 at your earliest convenience.
+
+Feel free to call us at (484) 567-0666 if you have any questions. 
+Thank you for your prompt attention!
+
+----------------------------------------------------------
+From: Mel T.
+Phone: (484) 567-0666 
+Fax: (484) 362-1480
+
+Phone: 4845670666 
+Fax: 4843621480">CMN Template</option>
+
+  <option value="Good day! Patient is due for 5-year O2 requalification. Requesting a copy of a qualifying 6-minute walk test from any year to be used in requalifying patient. For questions, you may call 484-567-0666. Thank you!">6MWT Template</option>
+
+     <option value="What’s needed: 
+
+| Item/s: E1390 &
+| RUL Date: 
+
+| Doctor call: 0/5
+| GoScripts: 0/2
+| Parachute: 0/2
+| Patient Call: 0/3
+| Faxes sent: 0/5
+
+| Insurance: 
+| Policy Number: 
+| Checked Eligibility: Yes No
+| DNC/DNF: Yes No
+| GoScripts: Yes 
+| Parachute: Yes 
+
+| Doctor: 
+(PECOS)
+| NPI: 
+| Phone Number: 
+| Fax Number: 
+
+|Patient Evaluation/Test Date: 
+Patient Room air at rest: CODE%
+Patient Room air during exertion: CODE%
+Patient SpO2 while wearing 02 at 2LPM with exertion: CODE%
+| Diagnoses: 
+| Usage: 2LPM Oxygen via NC Continuous/Nocturnal
+| Can SWO be used: Yes No
+
+| Remark/s: We have valid testing, updated the clinical tab, and moved the testing to the OXRUL lists, but we cannot send the request for SWO/CMN until [DATE]. Flipped SB to Election pending Q.">Template</option>
+  <option value="IMPORTANT QUESTIONS:
+
+1. Are you still using your oxygen therapy?
+[] Yes / [] No
+
+2. How often do you use your oxygen therapy?
+[] Continuous: I use my oxygen therapy continuously, 24 hours a day. 
+[] Nighttime Only: I use my oxygen therapy only at night while I sleep.
+[] Daytime Only: I use my oxygen therapy during the day, but not at night.
+
+3. What is the current liter flow setting on your oxygen equipment?
+
+4. Can you please confirm your address?
+
+----------------------
+Doctor's Information:
+
+5. Can you please provide the name of your pulmonologist or primary care physician?
+
+6. How about the phone number for your doctor's office?
+
+---------------------
+Doctor Appointments:
+
+7. When was your most recent appointment with your doctor regarding your oxygen?
+
+8. Do you have any upcoming appointments scheduled with your doctor?
+
+9. What is the physical address of your doctor's office?">Election Questions</option>
+     <option value="Good day! Just checking in on this order. We require a signed document to continue with the patient’s 5-year O2 requalification. Thank you and have a great day!">CMN Follow-up</option>
+  <option value="These are the local branches that cannot provide Homefills anymore.
+ 
+Marshall Tx office
+AHS Plattsburgh
+Halprin Syracuse
+Halprin Binghamton
+Halprin Canandaigua
+TN Kingsport-61540
+TN Kingsport Resp-I-Care- 61544
+TN Johnson City-61542
+TN Knoxville
+TN Maryville
+TN Oakridge
+Adapt Health - Minnesota - United
+Goulds - Bardstown
+Goulds - Clarksville
+Goulds - Dutchmans
+KY Elizabethtown - 328
+KY Lexington - 103
+KY London - 330
+KY Louisville - 327
+KY Louisville Distribution Drive - 55528
+KY Murray - 55501
+KY Pikeville - 331
+KY Richmond - 329
+KY Somerset - 55507
+NY Rochester RSWNY - 53515
+RSWNY Cheektowaga">K0738</option>
+
+     <option value="Acceptable Electronic Signature Examples
+. Chart Accepted by with provider's name
+. Electronically signed by with provider's name
+. Verified by with provider's name
+. Reviewed by with provider's name
+. Released by with provider's name
+. Signed by with provider's name
+. Signed before import by with provider's name
+. Signed: John Smith, M.D. with provider's name
+· Digitized signature: Handwritten and scanned into the computer
+. This is an electronically verified report by John Smith, M.D.
+. Authenticated by John Smith, M.D.
+· Authorized by: John Smith, M.D.
+· Digital signature: John Smith, M.D.
+. Confirmed by with provider's name
+. Closed by with provider's name
+. Finalized by with provider's name
+. Electronically approved by with provider's name
+. Signature derived from controlled access password">Acceptable Electronic Signatures</option>
+  <option value="Subject: POC Availability
+ 
+Hello, Catherine!
+ 
+I hope this email finds you well. I am writing to inquire if you could assist a patient residing at [ADDRESS].
+ 
+This patient is due for a O2 5 YEAR RENEWAL, and we received a prescription for a POC for the patient and we would like to inquire if we have an available POC for this patient and I have attached the prescription.
+ 
+If additional details are needed, please let us know. Your prompt attention to this matter is greatly appreciated.
+ 
+Thank you and have a great day!">POC Availability</option>
+     <option value="Hello, James!
+
+I hope this email finds you well. I am writing to inquire if you could assist a patient residing at [ADDRESS].
+
+The patient is due for an O2 5 YEAR RENEWAL, and the account is currently on hold. Should we proceed with creating a new work order for the O2 5 YEAR RENEWAL, or send the account for branch review to address the hold?
+
+If additional details are needed, please let us know. Your prompt attention to this matter is greatly appreciated.
+
+Thank you and have a great day!">Account is on Hold</option>
+  <option value="ZZZCODE">ZZZCODE</option>
+     <option value="ZZZCODE">ZZZCODE</option>
+     <option value="ZZZCODE">ZZZCODE</option>
+  <option value="ZZZCODE">ZZZCODE</option>
+     <option value="ZZZCODE">ZZZCODE</option>
+     <option value="ZZZCODE">ZZZCODE</option>
+  <option value="ZZZCODE">ZZZCODE</option>
+     <option value="ZZZCODE">ZZZCODE</option>
+
+
+
+
+    </select>
+
+
+
+<br><br>
+        <textarea id="selectedOption" placeholder="UPDATE MEETING 2/13/2025:
+ 
+If we req for a physician to be added, send email to all LEADS not only to gabe so all domestic leads will be able to see it. 
+ 
+for accounts with HOLD and is good for scheduling, send email to local branch to lift hold and if after 3 follow ups we receive NO response at all, send email to leads so they can send it to BRANCH REVIEW.
+ 
+For inbound calls or outbound calls where in you need to update or change on PT Name or Phone number you may send it to MELISA MIA and FAITH so it could be updated. Any PT ADDRESS/LOCATION update, Reach out to branch offices.
+ 
+FYI Everyone" style="color: white;"></textarea>
+    <textarea id="additionalInfo" placeholder="Remarks:" style="color: white;"></textarea>
+
+    <script>
+        const additionalInfoMap = {
+        
+
+"Voicemail": "[Scheduling-Attempt/s#1] Insurance is eligible, contacted the patient at CODE, routed to VM. LVM.",
+
+".Check O2 and replace if necessary": "[Scheduling] Insurance checked, discussed with the patient all the details regarding the O2 5 YEAR RENEWAL. They requested that we check their oxygen first and only replace if necessary.\n\nPatient's details below:\n\nPhone number: CODE\nAddress: CODE\nScheduled date: CODE",
+".Declined a replacement": "[Scheduling] Insurance checked, discussed with the patient all the details regarding the O2 5 YEAR RENEWAL. They declined a replacement but would like to sign the contract to continue with our services.\n\nPatient's details below:\n\nPhone number: CODE\nAddress: CODE\nScheduled date: CODE",
+
+".Replacement is needed": "[Scheduling] Insurance checked, discussed with the patient all the details regarding the O2 5 YEAR RENEWAL. They requested an oxygen replacement.\n\nPatient's details below:\n\nPhone number: CODE\nAddress: CODE\nScheduled date: CODE",
+
+".Account is on hold": "[Scheduling] The account is on hold, sent an email to CODE, will update once got a response from them.",
+
+".Account is on hold - Billing issue": "[Scheduling] The account is on hold, sent an email to CODE, will update once got a response from them.",
+
+".Blind delivery": "[Scheduling-Attempt/s#3] We have made several attempts to contact the patient without success. Set them up for blind delivery DATE.",
+
+"Email - Too soon to schedule": "Upon reviewing the account, I noticed that the delivery is scheduled for today, however, the 5-Year Restart is not due until 8/1/2024. Could we arrange for the delivery on or after 8/1/2024? This would ensure the dates are accurate and to avoid the need for a second visit to the patient's home for signing the same document.",
+
+"Not For US": "[Scheduling] We've been informed that our scheduling services for patients at BRANCH will no longer be needed, as this branch will now handle their own scheduling.",
+
+"Order and Delivery Note": "Please have patient sign 60-month letter when completing exchange/restart located in OTL.",
+
+
+"HCPCS": "E1390, BL-E1390-5LPM | E1392, BL-E1392 | E0431, OXY PORTABILITY | E0443, BL-E0443 | OHH, GASEOUS RESUPPLY | K0738, BL-K0738",
+
+"CLAIM NOTE": "RUL MET E1390 INITIAL 05032019",
+
+"USAGE": "2LPM Via NC At rest, 2LPM Via NC with exertion",
+
+"Email - Drive by - NEED ASSISTANCE": "We've tried reaching out multiple times but the patient didn't answer our calls or even return our call, sent email to local branch to ask for assistance",
+
+
+"Parachute 6MWT": "Good day! Patient is due for 5-year O2 requalification. Requesting a copy of a qualifying 6-minute walk test from any year to be used in requalifying patient. For questions, you may call 484-567-0666. Thank you!",
+
+"Parachute SWO": "Hello, Patient is due for 60 Month Restart for their Oxygen. Please complete, sign and date attached CMN/SWO at your earliest convenience. If you have any questions, please feel free to call us at (484) 567-0666. Thank you for your help!",
+
+"Parachute Follow-up": "Good day! Just checking in on this order. We require a signed document to continue with the patient’s 5-year O2 requalification. Thank you and have a great day!",
+
+
+"Transition but no BT": "[Scheduling] The Aerocare system has not been created yet; I have sent a follow-up email to Candice C.",
+
+"Items Removed Prior to Delivery": "[Scheduling] Received delivery ticket but ITEMCODE was removed prior to delivery, and we cannot accept it. Created new order CODE. Put manual hold reason for new delivery ticket needed and WIP to on hold location attention needed.",
+
+"Needs new insurance information / .6B": "This is not for 60MC, flipped to needs new insurance information.",
+
+"Walker, Rhoshanda": "[Scheduling] The patient's restart is managed directly by the local branch representatives/branch manager. They may require credit card information from the patient to set up auto-pay, have limited availability of technicians/drivers, or need to schedule a specific delivery date to avoid conflicts with the delivery schedule. No further action is required.",
+ 
+".3.4 - Need Prior Authorization": "[Prior Auh is needed]",
+
+"1.1 IB Call - Patient": "Inbound call from NAME [PHONE] regarding the",
+
+".MAIL OUT THE DOCUMENTS": "[Scheduling] This patient is due for her 5-year requalification. We contacted the patient, she declined a replacement at this time, but willing to sign the contract for renewal but prefer to receive it via postal mail. ***Please send the RUL documents on [DATE]",
+
+
+         
+"2. IB Call - Adapthealth Representative": "The representative contacted us at [NUMBER] regarding what we need from them. I explained the requirements we need,",
+
+         "Queued but no contact": "[Scheduling-Attempt/s#1] Insurance is eligible, this account is queued, but there's no record of us contacted the patient. Called the patient at P#CODE to inform them that this is all about and verify all necessary details, including phone number and address, but reached voicemail. Left a message.",
+
+
+
+
+"Cylinder Email - No Information": "[Scheduling] This account is under PPS area and there is no information in the AdaptHealth Cylinder Delivery Tool, sent email to CODE to confirm if they will still service this area of the patient.",
+
+         "2.7 - Delivered / Restarted": "10/31/2024, Item/s: E1390 & E1392 / DT & 60Month Letter",
+
+          "Outbound / Doctor's information": "Remark/s: Called P#CODE to confirm the patient's PCP/Pulmonologist's, routed to VM. LVM.",
+
+".ELECTION": "VOICEMAIL\n\nHi! This is Raymond from Adapthealth and its family of companies on a recorded line.\n\nThis message is for (PATIENT'S NAME)\n\nWe're calling in regards to your durable medical equipment.\n\nIt is important that you call us back as soon as possible to ensure that we have the most up-to-date information on your account.\n\nOur phone number is 484-567-0666 again that's 484-567-0666\n\nThank you and have a great day!\n\n------------------------\n\nHi! This is Raymond from Adapthealth and its family of companies on a recorded line.\n\nThis message is for (PATIENT'S NAME)\n\nI wanted to inform you that your account will reach the 5-year mark on [DATE]. To ensure the continuation of your oxygen services, we'll need some documents from your doctor. \n\nRemark/s: Called P#CODE to confirm the patient's PCP/Pulmonologist's, routed to VM. LVM.",
+
+
+".2 - Voicemail": "[Scheduling-Attempt/s#2] Contacted the patient at CODE, still routed to voicemail, left a voice message for follow-up.",
+
+".3 - Voicemail": "[Scheduling-Attempt/s#3] Contacted the patient at CODE, still routed to voicemail, left a voice message for follow-up.",
+
+"First Touch": "What’s needed: \n\n| Item/s: E1390 &\n| RUL Date: \n\n| Doctor call: 0/5\n| GoScripts: 0/2\n| Parachute: 0/2\n| Patient Call: 0/3\n| Faxes sent: 0/5\n\n| Insurance: \n| Policy Number: \n| Checked Eligibility: Yes No\n| DNC/DNF: Yes No\n| GoScripts: Yes \n| Parachute: Yes \n\n| Doctor: \n(PECOS)\n| NPI: \n| Phone Number: \n| Fax Number: \n\n|Patient Evaluation/Test Date: \nPatient Room air at rest: CODE%\nPatient Room air during exertion: CODE%\nPatient SpO2 while wearing 02 at 2LPM with exertion: CODE%\n| Diagnoses: \n| Usage: 2LPM Oxygen via NC Continuous/Nocturnal\n| Can SWO be used: Yes No\n\n| Remark/s: We have valid testing, updated the clinical tab, and moved the testing to the OXRUL lists, but we cannot send the request for SWO/CMN until [DATE]. Flipped SB to Election pending Q.",
+
+"ARP BRANCH REVIEW": "Contacted the patient multiple times to get their account restarted but unsuccessful. Moved to Branch Review.",
+  
+"Sent to scheduling - Medicare": "5-YR RUL is not due until the DATE. Please do not schedule it until then.\n\n2LPM via NC Continuous / 60Month Restart\n---------------------------------------------------------------------------------\nPlease have patient sign 60-month letter when completing exchange/restart located in OTL.\n---------------------------------------------------------------------------------\nCLAIM NOTE\n\nRUL MET E1390 INITIAL 05032019\nRUL MET E1392 INITIAL 362020\nRUL MET E0431 INITIAL 362020\nRUL MET K0738 INITIAL 362020\n---------------------------------------------------------------------------------\nCSR, Scheduling\n---------------------------------------------------------------------------------\n\nBL-E1390-5LPM\nBL-K0738\nBL-E1392\nOXY PORTABILITY\nBL-E0443\n\n2LPM Oxygen Via NC At rest\n2LPM Oxygen Via NC with exertion",
+
+
+"Sent to scheduling - Non-Medicare": "5-YR RUL is not due until the DATE. Please do not schedule it until then.\n\n2LPM via NC Continuous / 60Month Restart\n---------------------------------------------------------------------------------\nPlease have patient sign 60-month letter when completing exchange/restart located in OTL.\n---------------------------------------------------------------------------------\nCLAIM NOTE\n\nRUL MET E1390 INITIAL 05032019\nRUL MET E1392 INITIAL 362020\nRUL MET E0431 INITIAL 362020\nRUL MET K0738 INITIAL 362020\n---------------------------------------------------------------------------------\nCSR, Scheduling\n---------------------------------------------------------------------------------\n\nBL-E1390-5LPM\nBL-K0738\nBL-E1392\nOXY PORTABILITY\nBL-E0443\n\n2LPM Oxygen Via NC At rest\n2LPM Oxygen Via NC with exertion",
+          
+".First touch - Conversion": "What’s needed: \n\n| Item/s: E1390 &\n| RUL Date: \n\n| Doctor call: 0/5\n| GoScripts: 0/2\n| Parachute: 0/2\n| Patient Call: 0/3\n| Faxes sent: 0/5\n\n| Insurance: \n| Policy Number: \n| Checked Eligibility: Yes No\n| DNC/DNF: Yes No\n| GoScripts: Yes \n| Parachute: Yes \n\n| Doctor: \n(PECOS)\n| NPI: \n| Phone Number: \n| Fax Number: \n\n|Patient Evaluation/Test Date: \nPatient Room air at rest: CODE%\nPatient Room air during exertion: CODE%\nPatient SpO2 while wearing 02 at 2LPM with exertion: CODE%\n| Diagnoses: \n| Usage: 2LPM Oxygen via NC Continuous/Nocturnal\n| Can SWO be used: Yes No\n\n| Remark/s: The patient has an Aerocare account with PT ID: CODE. Her insurance is listed as CODE, with a policy number of CODE. Same insurance is listed in St. Luke's under a different name, CODE.\n\nIn Aerocare, SO#CODE started paying on DATE and ended on DATE with a total of NUMBER payments. This continued in StLuke's with SO#CODE, which started paying on DATE and ended on DATE with a total of NUMBER payments.\n\nOverall, there have been NUMBER payments in total. This is for 60MC. We have valid testing, updated the clinical tab, and moved the testing to the OXRUL lists, but we cannot send the request for SWO/CMN until [DATE]. Flipped SB to Election pending Q.",
+
+            "Mountains": "Mountains are formed through tectonic forces or volcanism. They are home to unique ecosystems and are often considered sacred in various cultures. Mountains also attract tourists and adventurers for activities like hiking, climbing, and skiing."
+        };
+
+
+        function updateTextareas() {
+            const dropdown = document.getElementById('dropdown');
+            const selectedOption = document.getElementById('selectedOption');
+            const additionalInfo = document.getElementById('additionalInfo');
+
+            selectedOption.value = dropdown.value;
+            additionalInfo.value = additionalInfoMap[dropdown.options[dropdown.selectedIndex].text] || "";
+        }
+    </script>
+</body>
+</html>
