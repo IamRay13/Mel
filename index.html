@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,6 +24,18 @@ body {
 
 }
 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
    select, textarea {
             width: 500px;
             font-size: 20px;
@@ -38,15 +49,15 @@ textarea {
     color: white;
 }
 
-h1 {
-    font-family: 'Calibri', sans-serif;
+p {
+    font-family: Arial, sans-serif;
     font-size: 30px;
-
+    color: white;
 
 }
 
-h2 {
-    font-family: 'Calibri', sans-serif;
+p {
+    font-family: Arial, sans-serif;
     font-size: 30px;
 
 
@@ -57,12 +68,25 @@ h2 {
 #selectedOption {
             height: 600px;
             width: 500px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
             background-color: #00000080; /* Make textarea 50% transparent dark black */
             color: white;
+	 font-size: 20px;
+
         }
+
+        #selectedOption::placeholder {
+            color: #bbb; /* Placeholder text styling */
+        }
+
         #additionalInfo {
             height: 600px;
             width: 500px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
             background-color: #00000080; /* Make textarea 50% transparent dark black */
             color: white;
         }
@@ -99,22 +123,16 @@ image-align: left;
 
 </head>
 <body>
-<body>
+
 
 <center>
 <img src="IamRay13/Ray.png""height="1500" width="1000"
 </center>
 
-            <!--------------- hero section starts here --------------->
-            <div class="hero">
-                  <div class="header">
-                        <h1 class="line anim-typewriter">Mel, from Revenue Cycle Management (RCM)</h1>
-                  </div>
-            </div>
 
-          <div class="scroll-down"></div>
-            <!--------------- hero section ends here --------------->
+                        <p>Revenue Cycle Management (RCM)</p>
 
+<p>[Scheduling]</p>
 
     <select id="dropdown" onchange="updateTextareas()">
 <option value="Please note anything here....">60MC Restart Note</option>
